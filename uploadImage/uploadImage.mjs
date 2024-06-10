@@ -8,7 +8,7 @@ const blobToFile = (theBlob, fileName) => {
 }
 
 const graphqlUrl = "https://api.bettermode.com";
-const accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InR0bzc2eWxieGsiLCJuZXR3b3JrSWQiOiI4eWNPelUyR2ZRIiwibmV0d29ya0RvbWFpbiI6ImxvZ2ljYWwuY29tbXVuaXR5IiwidG9rZW5UeXBlIjoiVVNFUiIsImVudGl0eUlkIjpudWxsLCJwZXJtaXNzaW9uQ29udGV4dCI6bnVsbCwicGVybWlzc2lvbnMiOm51bGwsInNlc3Npb25JZCI6ImJGZzhUTklKakkwSnBUSmU0Q3ZEdGI0SG85dndCY3dNVGFoRGhtckFpR3Vac0RmcVdtIiwiaWF0IjoxNzE4MDM5ODg1LCJleHAiOjE3MjA2MzE4ODV9.Lhx-rJM0N0bSGjr5f_792LM2y_xwF_LBUOcKtEX6B0M";
+const accessToken = "YOUR_ACCESS_TOKEN";
 
 const uploadFromUrl = async (fileUrl, fileName) => {
     const remoteFileResponse = await fetch(fileUrl);
